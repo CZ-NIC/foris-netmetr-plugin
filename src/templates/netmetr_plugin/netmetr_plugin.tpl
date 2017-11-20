@@ -15,7 +15,7 @@
 <div id="page-netmetr-plugin" class="config-page">
 %include("_messages.tpl")
 
-<form action="{{ request.fullpath }}" class="config-form" method="post">
+<form action="{{ request.fullpath }}" class="config-form" method="post" id="netmetr-main-form">
     <input type="hidden" name="csrf_token" value="{{ get_csrf_token() }}">
     <h3>{{ form.sections[0].sections[0].title }}</h3>
     %for field in form.sections[0].sections[0].active_fields:
