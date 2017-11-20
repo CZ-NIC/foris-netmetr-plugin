@@ -1,17 +1,6 @@
 
 %rebase("config/base.tpl", **locals())
 
-<style>
-#netmetr-results th {
-    padding: 3px;
-    text-align: center;
-    font-weight: bold;
-}
-#netmetr-results td {
-    padding: 3px;
-}
-</style>
-
 <div id="page-netmetr-plugin" class="config-page">
 %include("_messages.tpl")
 
@@ -27,7 +16,7 @@
     %end
     <div class="row">
     %for field in form.sections[0].sections[1].active_fields:
-        <div style="text-align: center; display: inline-block; padding: 2px">
+        <div class="netmetr-time-box">
         {{! field.label_tag }}
         <br />
         {{! field.render() }}

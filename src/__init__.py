@@ -136,7 +136,7 @@ class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
 
 
 class NetmetrPlugin(ForisPlugin):
-    PLUGIN_NAME = "netmetr_plugin"
+    PLUGIN_NAME = "netmetr"
     DIRNAME = os.path.dirname(os.path.abspath(__file__))
 
     PLUGIN_STYLES = [
