@@ -37,5 +37,5 @@
     <button type="submit" name="action" id="start-trigger" value="start" class="button">{{ trans("Start test") }}</button>
 </form>
 <h3>{{ trans("Results") }}</h3>
-%include("netmetr_plugin/_results.tpl", results=results, sync_code=form._request_data["sync_code"])
+%include("netmetr/_results.tpl", results=results, sync_code=form._request_data["sync_code"])
 </div>

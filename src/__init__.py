@@ -69,7 +69,7 @@ class NetmetrPluginConfigHandler(BaseConfigHandler):
 
 class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
     menu_order = 80
-    template = "netmetr_plugin/netmetr_plugin.tpl"
+    template = "netmetr/netmetr_plugin.tpl"
     userfriendly_title = gettext("Netmetr")
 
     def save(self, *args, **kwargs):
@@ -107,7 +107,7 @@ class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
             data = current_state.backend.perform("netmetr", "get_data", {})
             sync_code = current_state.backend.perform("netmetr", "get_settings", {})["sync_code"]
             return bottle.template(
-                "netmetr_plugin/_results",
+                "netmetr/_results",
                 results=self._prepare_results(data["performed_tests"]),
                 sync_code=sync_code,
             )
