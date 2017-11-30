@@ -41,7 +41,7 @@ class NetmetrPluginConfigHandler(BaseConfigHandler):
         autostart_section = main.add_section(name="autostart", title=_("Autostart"))
         autostart_section.add_field(
             Checkbox, name="autostart_enabled", label=_("Autostart enabled"),
-            preproc=lambda val: bool(int(val)), hint=_("TBD")
+            preproc=lambda val: bool(int(val)), hint=_("Measuring will start about selected hour (time is no exact for load distribution)")
         )
         hours = main.add_section(name="hours", title=_("Autostart times"))
         for i in range(24):
