@@ -20,9 +20,9 @@
         <div class="times row">
         %for field in form.sections[0].sections[1].active_fields:
             <div class="netmetr-time-box">
-            {{! field.label_tag }}
-            <br />
             {{! field.render() }}
+            <br>
+            {{! field.label_tag }}
             </div>
         %end
         </div>
