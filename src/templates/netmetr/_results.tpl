@@ -1,3 +1,13 @@
+<%
+  if lang() == "cs":
+    my_url = "https://www.netmetr.cz/cs/moje.html"
+    detail_url = "https://www.netmetr.cz/cs/detail.html"
+  else:
+    my_url = "https://www.netmetr.cz/en/my.html"
+    detail_url = "https://www.netmetr.cz/en/detail.html"
+  end
+%>
+
 <div id="netmetr-results">
     %if results:
     <table id="netmetr-results-table">
@@ -18,9 +28,9 @@
                 <td>{{ record["speed_upload"] }}</td>
                 <td>{{ record["ping"] }}</td>
                 <td>
-                    <a href="https://www.netmetr.cz/cs/detail.html?{{ record["test_uuid"]}}">{{ trans("Details") }}</a>
+                    <a href="{{ "%s?%s" % (detail_url, record["test_uuid"]) }}">{{ trans("Details") }}</a>
                     &nbsp;
-                    <a href="https://www.netmetr.cz/cs/detail.html?{{ record["test_uuid"]}}" title="{{ trans("Details in new window") }}" onclick="return !window.open(this.href)">&#x29c9;</a>
+                    <a href="{{ "%s?%s" % (detail_url, record["test_uuid"]) }}" title="{{ trans("Details in new window") }}" onclick="return !window.open(this.href)">&#x29c9;</a>
                 </td>
             </tr>
     %end
@@ -28,7 +38,7 @@
     </table>
 
     <br>
-    <p>{{! trans("For more information you need to enter your syncode <strong>%(sync_code)s</strong> <a href='https://www.netmetr.cz/cs/moje.html'>here</a>.") % dict(sync_code=sync_code) }}</p>
+    <p>{{! trans("For more information you need to enter your syncode <strong>%(sync_code)s</strong> <a href='%(url)s'>here</a>.") % dict(sync_code=sync_code, url=my_url) }}</p>
     %else:
     <p>{{ trans("No results found.") }}</p>
     %end
