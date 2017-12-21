@@ -8,104 +8,113 @@ msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-21 10:07+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-12-21 09:44+0000\n"
+"Last-Translator: Stepan Henek <stepan+github@henek.name>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/foris-"
+"netmetr-plugin/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 2.18\n"
 
 msgid "netmetr"
-msgstr ""
+msgstr "netmetr"
 
 msgid "Autostart"
-msgstr ""
+msgstr "Autostart"
 
 msgid "Autostart enabled"
-msgstr ""
+msgstr "Autostart povolen"
 
 msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
+"Měření začne zhruba ve vybranou hodinu (čas není zvolen přesně kvůli "
+"vyvažování zátěže)"
 
 msgid "Autostart times"
-msgstr ""
+msgstr "Autostart časy"
 
 msgid "Netmeter settings were updated."
-msgstr ""
+msgstr "Nastavení netmetru bylo aktualizováno."
 
 msgid "Netmetr"
-msgstr ""
+msgstr "Netmetr"
 
 msgid "Date and Time"
-msgstr ""
+msgstr "Datum a čas"
 
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Stahování [Mb/s]"
 
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Nahrávání [Mb/s]"
 
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Ping [ms]"
 
 msgid "Link"
-msgstr ""
+msgstr "Odkaz"
 
 msgid "Details"
-msgstr ""
+msgstr "Detaily"
 
 msgid "Details in new window"
-msgstr ""
+msgstr "Detaily v novém okně"
 
 #, python-format
 msgid ""
 "For more information you need to enter your syncode <strong>%(sync_code)s</"
 "strong> <a href='%(url)s'>here</a>."
 msgstr ""
+"Pro víc informací zadejte váš syncode <strong>%(sync_code)s</strong> <a "
+"href='%(url)s'>sem</a>."
 
 msgid "No results found."
-msgstr ""
+msgstr "Žádné výsledky nebyly nalezeny."
 
 msgid ""
 "Netmeter measures your internet parameters like upload, download and "
 "response time."
 msgstr ""
+"Netmetr měří parametry vašecho připojení do internetu (rychlost stahování, "
+"rychlost nahrávání, dobu odezvy)."
 
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 msgid "Controls"
-msgstr ""
+msgstr "Ovládání"
 
 msgid "Redownload data"
-msgstr ""
+msgstr "Znovu stáhni data"
 
 msgid "Start test"
-msgstr ""
+msgstr "Spusť test"
 
 msgid "Results"
-msgstr ""
+msgstr "Výsledky"
 
 msgid "Downloading... OK"
-msgstr ""
+msgstr "Stahuji... OK"
 
 msgid "Downloading... FAILED"
-msgstr ""
+msgstr "Stahuji... CHYBA"
 
 msgid "Testing... FINISHED"
-msgstr ""
+msgstr "Testování... DOKONČENO"
 
 msgid "Testing... FAILED"
-msgstr ""
+msgstr "Testování... CHYBA"
 
 msgid "Testing... "
-msgstr ""
+msgstr "Testování... "
 
 msgid "Downloading..."
-msgstr ""
+msgstr "Stahování..."
 
 msgid "Testing..."
-msgstr ""
+msgstr "Testování..."
