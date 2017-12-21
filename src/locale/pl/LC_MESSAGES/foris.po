@@ -8,104 +8,114 @@ msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-21 10:07+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-01-24 12:25+0000\n"
+"Last-Translator: Krzysztof Kulesza <github@cmza.pl>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/turris/foris-"
+"netmetr-plugin/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 msgid "netmetr"
-msgstr ""
+msgstr "netmetr"
 
 msgid "Autostart"
-msgstr ""
+msgstr "Automatyczne uruchamianie"
 
 msgid "Autostart enabled"
-msgstr ""
+msgstr "Włączone automatyczne uruchamianie"
 
 msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
+"Pomiar rozpocznie się w okolicach wybranej godziny (czas nie jest podany "
+"dokładnie ze względu na rozkład obciążenia)"
 
 msgid "Autostart times"
-msgstr ""
+msgstr "Godziny automatycznego uruchamiania"
 
 msgid "Netmeter settings were updated."
-msgstr ""
+msgstr "Ustawienia Netmeter zostały zaktualizowane."
 
 msgid "Netmetr"
-msgstr ""
+msgstr "Netmetr"
 
 msgid "Date and Time"
-msgstr ""
+msgstr "Data i godzina"
 
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Download [Mb/s]"
 
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Upload [Mb/s]"
 
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Ping [ms]"
 
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 msgid "Details"
-msgstr ""
+msgstr "Szczegóły"
 
 msgid "Details in new window"
-msgstr ""
+msgstr "Szczegóły w nowym oknie"
 
 #, python-format
 msgid ""
 "For more information you need to enter your syncode <strong>%(sync_code)s</"
 "strong> <a href='%(url)s'>here</a>."
 msgstr ""
+"Aby uzyskać więcej informacji, musisz wpisać swój kod synchronizacji "
+"<strong>%(sync_code)s</strong> <a href='%(url)s'>tutaj</a>."
 
 msgid "No results found."
-msgstr ""
+msgstr "Nie znaleziono wyników."
 
 msgid ""
 "Netmeter measures your internet parameters like upload, download and "
 "response time."
 msgstr ""
+"Netmeter mierzy parametry Internetu, takie jak prędkość wysyłania (upload), "
+"pobierania (download) i czas odpowiedzi (ping)."
 
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 msgid "Controls"
-msgstr ""
+msgstr "Zarządzanie"
 
 msgid "Redownload data"
-msgstr ""
+msgstr "Ponownie wczytaj dane"
 
 msgid "Start test"
-msgstr ""
+msgstr "Uruchom test"
 
 msgid "Results"
-msgstr ""
+msgstr "Wyniki"
 
 msgid "Downloading... OK"
-msgstr ""
+msgstr "Pobieranie... OK"
 
 msgid "Downloading... FAILED"
-msgstr ""
+msgstr "Pobieranie... BŁĄD"
 
 msgid "Testing... FINISHED"
-msgstr ""
+msgstr "Testowanie... ZAKOŃCZONO"
 
 msgid "Testing... FAILED"
-msgstr ""
+msgstr "Testowanie... BŁĄD"
 
 msgid "Testing... "
-msgstr ""
+msgstr "Testowanie... "
 
 msgid "Downloading..."
-msgstr ""
+msgstr "Pobieranie..."
 
 msgid "Testing..."
-msgstr ""
+msgstr "Testowanie..."
