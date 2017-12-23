@@ -8,104 +8,112 @@ msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-21 10:07+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-12-23 09:30+0000\n"
+"Last-Translator: Zoli <boritek@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/foris-"
+"netmetr-plugin/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 msgid "netmetr"
-msgstr ""
+msgstr "netmetr"
 
 msgid "Autostart"
-msgstr ""
+msgstr "Automatikus indítás"
 
 msgid "Autostart enabled"
-msgstr ""
+msgstr "Automatikus indítás engedélyezve"
 
 msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
+"A mérés a kiválasztott óráról indul (az idő nem pontos a terheléseloszlásnál)"
 
 msgid "Autostart times"
-msgstr ""
+msgstr "Automatikus indítás időpontjai"
 
 msgid "Netmeter settings were updated."
-msgstr ""
+msgstr "A Netmeter beállítások frissültek."
 
 msgid "Netmetr"
-msgstr ""
+msgstr "Netmetr"
 
 msgid "Date and Time"
-msgstr ""
+msgstr "Dátum és idő"
 
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Letöltés [Mb/s]"
 
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Feltöltés [Mb/s]"
 
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Ping [ms]"
 
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 msgid "Details"
-msgstr ""
+msgstr "Részletek"
 
 msgid "Details in new window"
-msgstr ""
+msgstr "Részletek új ablakban"
 
 #, python-format
 msgid ""
 "For more information you need to enter your syncode <strong>%(sync_code)s</"
 "strong> <a href='%(url)s'>here</a>."
 msgstr ""
+"További információkért meg kell adnia a "
+"synckódot<strong>%(sync_code)s</strong><a href='%(url)s'>itt</a>."
 
 msgid "No results found."
-msgstr ""
+msgstr "Nincs találat."
 
 msgid ""
 "Netmeter measures your internet parameters like upload, download and "
 "response time."
 msgstr ""
+"A Netmeter méri az internetes paramétereket, mint a feltöltés, a letöltés és "
+"a válaszidő."
 
 msgid "Save"
-msgstr ""
+msgstr "Mentés"
 
 msgid "Controls"
-msgstr ""
+msgstr "Vezérlők"
 
 msgid "Redownload data"
-msgstr ""
+msgstr "Adatok letöltése újra"
 
 msgid "Start test"
-msgstr ""
+msgstr "Teszt indítása"
 
 msgid "Results"
-msgstr ""
+msgstr "Eredmények"
 
 msgid "Downloading... OK"
-msgstr ""
+msgstr "Letöltés... OK"
 
 msgid "Downloading... FAILED"
-msgstr ""
+msgstr "Letöltés... NEM SIKERÜLT"
 
 msgid "Testing... FINISHED"
-msgstr ""
+msgstr "Tesztelés... KÉSZ"
 
 msgid "Testing... FAILED"
-msgstr ""
+msgstr "Tesztelés... NEM SIKERÜLT"
 
 msgid "Testing... "
-msgstr ""
+msgstr "Tesztelés... "
 
 msgid "Downloading..."
-msgstr ""
+msgstr "Letöltés..."
 
 msgid "Testing..."
-msgstr ""
+msgstr "Tesztelés..."
