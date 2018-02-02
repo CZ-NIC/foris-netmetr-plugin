@@ -8,104 +8,112 @@ msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-21 10:07+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-02-02 19:37+0000\n"
+"Last-Translator: anonymous <>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/foris-"
+"netmetr-plugin/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 msgid "netmetr"
-msgstr ""
+msgstr "netmetr"
 
 msgid "Autostart"
-msgstr ""
+msgstr "Autostart"
 
 msgid "Autostart enabled"
-msgstr ""
+msgstr "Autostart aktiviert"
 
 msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
+"Messung beginnt zur ausgewählten Uhrzeit (Startzeit hängt von von Systemlast "
+"ab)"
 
 msgid "Autostart times"
-msgstr ""
+msgstr "Autostart Einträge"
 
 msgid "Netmeter settings were updated."
-msgstr ""
+msgstr "Netmeter Einstellung aktualisiert."
 
 msgid "Netmetr"
-msgstr ""
+msgstr "Netmetr"
 
 msgid "Date and Time"
-msgstr ""
+msgstr "Datum und Uhrzeit"
 
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Download [Mb/s]"
 
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Upload [Mb/s]"
 
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Ping [ms]"
 
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 msgid "Details in new window"
-msgstr ""
+msgstr "Details in neuem Fenster"
 
 #, python-format
 msgid ""
 "For more information you need to enter your syncode <strong>%(sync_code)s</"
 "strong> <a href='%(url)s'>here</a>."
 msgstr ""
+"Für weitere Informationen müssen Sie Ihren Syncode <strong> 1%(sync_code)s "
+"2</strong> 3 <a href='%(url)s'> 4here</a> 5 eingeben."
 
 msgid "No results found."
-msgstr ""
+msgstr "Keine Einträge gefunden."
 
 msgid ""
 "Netmeter measures your internet parameters like upload, download and "
 "response time."
 msgstr ""
+"Netmetr misst Ihre Internet-Parameter wie Upload-, Download- und Antwortzeit."
 
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 msgid "Controls"
-msgstr ""
+msgstr "Steuerungen"
 
 msgid "Redownload data"
-msgstr ""
+msgstr "Daten erneut herunterladen"
 
 msgid "Start test"
-msgstr ""
+msgstr "Starte Test"
 
 msgid "Results"
-msgstr ""
+msgstr "Ergebnis"
 
 msgid "Downloading... OK"
-msgstr ""
+msgstr "Download... OK"
 
 msgid "Downloading... FAILED"
-msgstr ""
+msgstr "Download... Fehlgeschlagen"
 
 msgid "Testing... FINISHED"
-msgstr ""
+msgstr "Test... Abgeschlossen"
 
 msgid "Testing... FAILED"
-msgstr ""
+msgstr "Test... Fehlgeschlagen"
 
 msgid "Testing... "
-msgstr ""
+msgstr "Testen..."
 
 msgid "Downloading..."
-msgstr ""
+msgstr "Downloade..."
 
 msgid "Testing..."
-msgstr ""
+msgstr "Teste..."
