@@ -8,113 +8,113 @@ msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-21 10:07+0100\n"
-"PO-Revision-Date: 2018-02-13 12:36+0000\n"
-"Last-Translator: nautilusx <mail.ka@mailbox.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/turris/foris-"
-"netmetr-plugin/de/>\n"
-"Language: de\n"
+"PO-Revision-Date: 2018-02-16 14:39+0000\n"
+"Last-Translator: Vladimír Záhradník <vladimir.zahradnik@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/foris-"
+"netmetr-plugin/sk/>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 2.19\n"
 
 msgid "netmetr"
-msgstr "Netmetr"
+msgstr "netmeter"
 
 msgid "Autostart"
-msgstr "Autostart"
+msgstr "Automatické spustenie"
 
 msgid "Autostart enabled"
-msgstr "Autostart aktiv"
+msgstr "Automatické spustenie povolené"
 
 msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
-"Die Messung beginnt zur gewählten Stunde (die Zeit ist nicht genau für die "
-"Lastverteilung)."
+"Meranie začne približne vo vybranej hodine (čas nie je zvolený presne kvôli "
+"vyvažovaní záťaže)"
 
 msgid "Autostart times"
-msgstr "Autostartzeiten"
+msgstr "Časy automatického spustenia"
 
 msgid "Netmeter settings were updated."
-msgstr "Die Netmetr-Einstellungen wurden aktualisiert."
+msgstr "Nastavenie netmetra bolo aktualizované."
 
 msgid "Netmetr"
-msgstr "Netmetr"
+msgstr "Netmeter"
 
 msgid "Date and Time"
-msgstr "Datum und Zeit"
+msgstr "Dátum a čas"
 
 msgid "Download [Mb/s]"
-msgstr "Download [Mb/s]"
+msgstr "Preberanie [Mb/s]"
 
 msgid "Upload [Mb/s]"
-msgstr "Upload [Mb/s]"
+msgstr "Odovzdávanie [Mb/s]"
 
 msgid "Ping [ms]"
 msgstr "Ping [ms]"
 
 msgid "Link"
-msgstr "Link"
+msgstr "Odkaz"
 
 msgid "Details"
-msgstr "Details"
+msgstr "Podrobnosti"
 
 msgid "Details in new window"
-msgstr "Details in neuem Fenster"
+msgstr "Podrobnosti v novom okne"
 
 #, python-format
 msgid ""
 "For more information you need to enter your syncode <strong>%(sync_code)s</"
 "strong> <a href='%(url)s'>here</a>."
 msgstr ""
-"Tragen Sie hier Ihren syncode für weitere Informationen <strong> "
-"1%(sync_code)s 2</strong> 3 <a href='%(url)s'> 4ein</a> 5."
+"Pre viac informácií zadajte váš syncode <strong>%(sync_code)s</strong> <a "
+"href='%(url)s'>sem</a>."
 
 msgid "No results found."
-msgstr "Keine Einträge gefunden."
+msgstr "Nenašli sa žiadne výsledky."
 
 msgid ""
 "Netmeter measures your internet parameters like upload, download and "
 "response time."
 msgstr ""
-"Netmeter misst Ihre Internet Geschwindigkeit bestehend aus Upload, Download "
-"und Antwortzeiten."
+"Netmeter meria parametre vášho pripojenia k internetu (rýchlosť preberania, "
+"rýchlosť odovzdávania, dobu odozvy)."
 
 msgid "Save"
-msgstr "Speichern"
+msgstr "Uložiť"
 
 msgid "Controls"
-msgstr "Einstellungen"
+msgstr "Ovládanie"
 
 msgid "Redownload data"
-msgstr "Erneut Heruntergeladene Daten"
+msgstr "Znovu prevziať dáta"
 
 msgid "Start test"
-msgstr "Beginne Test"
+msgstr "Spustiť test"
 
 msgid "Results"
-msgstr "Resultate"
+msgstr "Výsledky"
 
 msgid "Downloading... OK"
-msgstr "Herunterladen... OK"
+msgstr "Preberanie... OK"
 
 msgid "Downloading... FAILED"
-msgstr "Herunterladen.... FEHLGESCHLAGEN"
+msgstr "Preberanie... CHYBA"
 
 msgid "Testing... FINISHED"
-msgstr "Testen... BEENDET"
+msgstr "Testovanie... DOKONČENÉ"
 
 msgid "Testing... FAILED"
-msgstr "Testen... FEHLGESCHLAGEN"
+msgstr "Testovanie... CHYBA"
 
 msgid "Testing... "
-msgstr "Testen... "
+msgstr "Testovanie... "
 
 msgid "Downloading..."
-msgstr "Herunterladen..."
+msgstr "Preberanie..."
 
 msgid "Testing..."
-msgstr "Testen..."
+msgstr "Testovanie..."

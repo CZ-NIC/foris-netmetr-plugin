@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-21 10:07+0100\n"
-"PO-Revision-Date: 2017-12-21 09:44+0000\n"
-"Last-Translator: Stepan Henek <stepan+github@henek.name>\n"
+"PO-Revision-Date: 2018-02-19 12:35+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/foris-"
 "netmetr-plugin/cs/>\n"
 "Language: cs\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 2.19\n"
 
 msgid "netmetr"
 msgstr "netmetr"
 
 msgid "Autostart"
-msgstr "Autostart"
+msgstr "Automatické spouštění"
 
 msgid "Autostart enabled"
-msgstr "Autostart povolen"
+msgstr "Automatické spouštění zapnuto"
 
 msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
 "Měření začne zhruba ve vybranou hodinu (čas není zvolen přesně kvůli "
-"vyvažování zátěže)"
+"rozprostření zátěže)"
 
 msgid "Autostart times"
-msgstr "Autostart časy"
+msgstr "Časy automatického spouštění"
 
 msgid "Netmeter settings were updated."
 msgstr "Nastavení netmetru bylo aktualizováno."
@@ -48,10 +48,10 @@ msgid "Date and Time"
 msgstr "Datum a čas"
 
 msgid "Download [Mb/s]"
-msgstr "Stahování [Mb/s]"
+msgstr "Příjem [Mb/s]"
 
 msgid "Upload [Mb/s]"
-msgstr "Nahrávání [Mb/s]"
+msgstr "Odesílání [Mb/s]"
 
 msgid "Ping [ms]"
 msgstr "Ping [ms]"
@@ -60,27 +60,27 @@ msgid "Link"
 msgstr "Odkaz"
 
 msgid "Details"
-msgstr "Detaily"
+msgstr "Podrobnosti"
 
 msgid "Details in new window"
-msgstr "Detaily v novém okně"
+msgstr "Podrobnosti v novém okně"
 
 #, python-format
 msgid ""
 "For more information you need to enter your syncode <strong>%(sync_code)s</"
 "strong> <a href='%(url)s'>here</a>."
 msgstr ""
-"Pro víc informací zadejte váš syncode <strong>%(sync_code)s</strong> <a "
-"href='%(url)s'>sem</a>."
+"Pro více informací zadejte <strong>%(sync_code)s</strong> <a "
+"href='%(url)s'>sem</a> svůj syncode."
 
 msgid "No results found."
-msgstr "Žádné výsledky nebyly nalezeny."
+msgstr "Nebyly nalezeny žádné výsledky."
 
 msgid ""
 "Netmeter measures your internet parameters like upload, download and "
 "response time."
 msgstr ""
-"Netmetr měří parametry vašecho připojení do internetu (rychlost stahování, "
+"Netmetr měří parametry vašeho připojení do Internetu (rychlost stahování, "
 "rychlost nahrávání, dobu odezvy)."
 
 msgid "Save"
@@ -90,31 +90,31 @@ msgid "Controls"
 msgstr "Ovládání"
 
 msgid "Redownload data"
-msgstr "Znovu stáhni data"
+msgstr "Znovu stáhnout data"
 
 msgid "Start test"
-msgstr "Spusť test"
+msgstr "Spustit test"
 
 msgid "Results"
 msgstr "Výsledky"
 
 msgid "Downloading... OK"
-msgstr "Stahuji... OK"
+msgstr "Stahování… OK"
 
 msgid "Downloading... FAILED"
-msgstr "Stahuji... CHYBA"
+msgstr "Stahování… CHYBA"
 
 msgid "Testing... FINISHED"
-msgstr "Testování... DOKONČENO"
+msgstr "Testování… DOKONČENO"
 
 msgid "Testing... FAILED"
-msgstr "Testování... CHYBA"
+msgstr "Testování… CHYBA"
 
 msgid "Testing... "
-msgstr "Testování... "
+msgstr "Testování… "
 
 msgid "Downloading..."
-msgstr "Stahování..."
+msgstr "Stahování…"
 
 msgid "Testing..."
-msgstr "Testování..."
+msgstr "Testování…"
