@@ -30,7 +30,7 @@
                 <td>
                     <a href="{{ "%s?%s" % (detail_url, record["test_uuid"]) }}">{{ trans("Details") }}</a>
                     &nbsp;
-                    <a href="{{ "%s?%s" % (detail_url, record["test_uuid"]) }}" title="{{ trans("Details in new window") }}" onclick="return !window.open(this.href)">&#x29c9;</a>
+                    <a href="{{ "%s?%s" % (detail_url, record["test_uuid"]) }}" title="{{ trans("Details in new window") }}" onclick="return !window.open(this.href)"><i class="far fa-clone"></i></a>
                 </td>
             </tr>
     %end
