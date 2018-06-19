@@ -24,7 +24,7 @@ class NetmetrPluginConfigHandler(BaseConfigHandler):
     userfriendly_title = gettext("netmetr")
 
     def get_form(self):
-        data = current_state.backend.perform("netmetr", "get_settings", {})
+        data = current_state.backend.perform("netmetr", "get_settings")
         # init hours
         for i in range(24):
             data["hour_to_run_%d" % i] = False
@@ -98,14 +98,14 @@ class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
     def call_ajax_action(self, action):
         if action == "redownload":
             bottle.response.set_header("Content-Type", "application/json")
-            return current_state.backend.perform("netmetr", "download_data", {})
+            return current_state.backend.perform("netmetr", "download_data")
         elif action == "start":
             bottle.response.set_header("Content-Type", "application/json")
-            return current_state.backend.perform("netmetr", "measure_and_download_data", {})
+            return current_state.backend.perform("netmetr", "measure_and_download_data")
         elif action == "get_data":
             bottle.response.set_header("Content-Type", "text/html")
-            data = current_state.backend.perform("netmetr", "get_data", {})
-            sync_code = current_state.backend.perform("netmetr", "get_settings", {})["sync_code"]
+            data = current_state.backend.perform("netmetr", "get_data")
+            sync_code = current_state.backend.perform("netmetr", "get_settings")["sync_code"]
             return bottle.template(
                 "netmetr/_results",
                 results=self._prepare_results(data["performed_tests"]),
@@ -115,11 +115,11 @@ class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
         raise ValueError("Unknown AJAX action.")
 
     def _action_download_data(self):
-        current_state.backend.perform("netmetr", "download_data", {})
+        current_state.backend.perform("netmetr", "download_data")
         bottle.redirect(reverse("config_page", page_name="netmetr_plugin"))
 
     def _action_measure_and_download_data(self):
-        current_state.backend.perform("netmetr", "measure_and_download_data", {})
+        current_state.backend.perform("netmetr", "measure_and_download_data")
         bottle.redirect(reverse("config_page", page_name="netmetr_plugin"))
 
     def call_action(self, action):
