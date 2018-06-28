@@ -1,5 +1,5 @@
 # Foris netmetr plugin
-# Copyright (C) 2017 CZ.NIC, z. s. p. o. <https://www.nic.cz>
+# Copyright (C) 2018 CZ.NIC, z. s. p. o. <https://www.nic.cz>
 #
 # Foris is distributed under the terms of GNU General Public License v3.
 # You should have received a copy of the GNU General Public License
@@ -69,7 +69,8 @@ class NetmetrPluginConfigHandler(BaseConfigHandler):
 
 class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
     menu_order = 80
-    template = "netmetr/netmetr_plugin.tpl"
+    template = "netmetr/netmetr_plugin"
+    template_type = "jinja2"
     userfriendly_title = gettext("Netmetr")
 
     def save(self, *args, **kwargs):

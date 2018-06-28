@@ -27,25 +27,25 @@ Foris.WS["netmetr"] = function(msg) {
     switch(msg["action"]) {
       case "download_data_finished":
         if (msg.data.passed) {
-            $("#netmetr-control-status").text('{{ trans("Downloading... OK")}}');
+            $("#netmetr-control-status").text('{% trans %}Downloading... OK{% endtrans %}');
             Foris.update_data();
         } else {
-            $("#netmetr-control-status").text('{{ trans("Downloading... FAILED")}}');
+            $("#netmetr-control-status").text('{% trans %}Downloading... FAILED{% endtrans %}');
         }
         break;
       case "measure_and_download_data_finished":
         if (msg.data.passed) {
-            $("#netmetr-control-status").text('{{ trans("Testing... FINISHED")}}');
+            $("#netmetr-control-status").text('{% trans %}Testing... FINISHED{% endtrans %}');
             Foris.update_data(true);
             document.getElementById('netmetr-control-progress').hidden = true;
         } else {
-            $("#netmetr-control-status").text('{{ trans("Testing... FAILED")}}');
+            $("#netmetr-control-status").text('{% trans %}Testing... FAILED{% endtrans %}');
         }
         break;
       case "measure_and_download_data_notification":
         document.getElementById('netmetr-control-progress').hidden = false;
         document.getElementById('netmetr-control-progress').value = msg.data.percent;
-        document.getElementById('netmetr-control-status').firstChild.data = '{{ trans("Testing... ")}}' + msg.data.msg;
+        document.getElementById('netmetr-control-status').firstChild.data = '{% trans %}Testing... {% endtrans %}' + msg.data.msg;
         break;
     }
 };
@@ -58,7 +58,7 @@ $(document).ready(function() {
         Foris.watched_process = response["async_id"];
         $("#start-trigger").hide()
         $("#redownload-trigger").hide()
-        $("#netmetr-control-status").text('{{ trans("Downloading...")}}');
+        $("#netmetr-control-status").text('{% trans %}Downloading...{% endtrans %}');
       });
   });
   $("#start-trigger").click(function(e) {
@@ -68,7 +68,7 @@ $(document).ready(function() {
         Foris.watched_process = response["async_id"];
         $("#start-trigger").hide()
         $("#redownload-trigger").hide()
-        $("#netmetr-control-status").text('{{ trans("Testing...")}}');
+        $("#netmetr-control-status").text('{% trans %}Testing...{% endtrans %}');
         document.getElementById('netmetr-control-progress').hidden = false;
       });
   });

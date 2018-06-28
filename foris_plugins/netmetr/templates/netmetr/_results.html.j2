@@ -1,0 +1,44 @@
+{% set ns = namespace(my_url=None,detail_url=None) %}
+{% if lang() == "cs" %}
+    {% set ns.my_url = "https://www.netmetr.cz/cs/moje.html" %}
+    {% set ns.detail_url = "https://www.netmetr.cz/cs/detail.html" %}
+{% else %}
+    {% set ns.my_url = "https://www.netmetr.cz/en/my.html" %}
+    {% set ns.detail_url = "https://www.netmetr.cz/en/detail.html" %}
+{% endif %}
+
+<div id="netmetr-results">
+    {% if results %}
+    <table id="netmetr-results-table">
+        <thead>
+            <tr>
+                <th>{% trans %}Date and Time{% endtrans %}</th>
+                <th>{% trans %}Download [Mb/s]{% endtrans %}</th>
+                <th>{% trans %}Upload [Mb/s]{% endtrans %}</th>
+                <th>{% trans %}Ping [ms]{% endtrans %}</th>
+                <th>{% trans %}Link{% endtrans %}</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for record in results %}
+            <tr>
+                <td>{{ record["time"] }}</td>
+                <td>{{ record["speed_download"] }}</td>
+                <td>{{ record["speed_upload"] }}</td>
+                <td>{{ record["ping"] }}</td>
+                <td>
+                    <a href="{{ "%s?%s" % (ns.detail_url, record["test_uuid"]) }}">{% trans %}Details{% endtrans %}</a>
+                    &nbsp;
+                    <a href="{{ "%s?%s" % (ns.detail_url, record["test_uuid"]) }}" title="{% trans %}Details in new window{% endtrans %}" onclick="return !window.open(this.href)"><i class="far fa-clone"></i></a>
+                </td>
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+
+    <br>
+    <p>{% trans sync_code=sync_code, url=ns.my_url %}For more information you need to enter your syncode <strong>{{ sync_code }}</strong> <a href='{{ url }}'>here</a>.{% endtrans %}</p>
+    {% else %}
+    <p>{% trans %}No results found.{% endtrans %}</p>
+    {% endif %}
+</div>
