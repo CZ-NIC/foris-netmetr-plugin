@@ -108,9 +108,10 @@ class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
             data = current_state.backend.perform("netmetr", "get_data")
             sync_code = current_state.backend.perform("netmetr", "get_settings")["sync_code"]
             return bottle.template(
-                "netmetr/_results",
+                "netmetr/_results.html.j2",
                 results=self._prepare_results(data["performed_tests"]),
                 sync_code=sync_code,
+                template_adapter=bottle.Jinja2Template,
             )
 
         raise ValueError("Unknown AJAX action.")
