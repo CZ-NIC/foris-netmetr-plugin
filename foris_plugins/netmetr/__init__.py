@@ -17,7 +17,7 @@ from foris.form import Checkbox
 from foris.plugins import ForisPlugin
 from foris.state import current_state
 from foris.utils import messages, reverse
-from foris.utils.translators import gettext_dummy as gettext, ugettext as _
+from foris.utils.translators import gettext_dummy as gettext, gettext as _
 
 
 class NetmetrPluginConfigHandler(BaseConfigHandler):
