@@ -68,8 +68,9 @@ class NetmetrPluginConfigHandler(BaseConfigHandler):
 
 
 class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
+    slug = "netmetr"
     menu_order = 80
-    template = "netmetr/netmetr_plugin"
+    template = "netmetr/netmetr"
     template_type = "jinja2"
     userfriendly_title = gettext("Netmetr")
 
@@ -118,16 +119,16 @@ class NetmetrPluginPage(ConfigPageMixin, NetmetrPluginConfigHandler):
 
     def _action_download_data(self):
         current_state.backend.perform("netmetr", "download_data")
-        bottle.redirect(reverse("config_page", page_name="netmetr_plugin"))
+        bottle.redirect(reverse("config_page", page_name="netmetr"))
 
     def _action_measure_and_download_data(self):
         current_state.backend.perform("netmetr", "measure_and_download_data")
-        bottle.redirect(reverse("config_page", page_name="netmetr_plugin"))
+        bottle.redirect(reverse("config_page", page_name="netmetr"))
 
     def call_action(self, action):
         if bottle.request.method != 'POST':
             messages.error("Wrong HTTP method.")
-            bottle.redirect(reverse("config_page", page_name="netmetr_plugin"))
+            bottle.redirect(reverse("config_page", page_name="netmetr"))
 
         if action == "redownload":
             self._action_download_data()
@@ -142,14 +143,14 @@ class NetmetrPlugin(ForisPlugin):
     DIRNAME = os.path.dirname(os.path.abspath(__file__))
 
     PLUGIN_STYLES = [
-        "css/netmetr_plugin.css"
+        "css/netmetr.css"
     ]
     PLUGIN_STATIC_SCRIPTS = [
     ]
     PLUGIN_DYNAMIC_SCRIPTS = [
-        "netmetr_plugin.js"
+        "netmetr.js"
     ]
 
     def __init__(self, app):
         super(NetmetrPlugin, self).__init__(app)
-        add_config_page("netmetr_plugin", NetmetrPluginPage, top_level=True)
+        add_config_page(NetmetrPluginPage)

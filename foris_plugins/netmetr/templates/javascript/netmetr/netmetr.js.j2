@@ -2,7 +2,7 @@ Foris.watched_process = null;
 Foris.update_data = function(newItem) {
   const NEW_ITEM_CLASSNAME = "new-item";
   document.getElementById('netmetr-results').classList.remove(NEW_ITEM_CLASSNAME);
-  $.get('{{ url("config_ajax", page_name="netmetr_plugin") }}', {action: "get_data"})
+  $.get('{{ url("config_ajax", page_name="netmetr") }}', {action: "get_data"})
     .done(function(response, status, xhr) {
       if (xhr.status == 200) {
         $("#netmetr-results").replaceWith(response);  // replace the table
@@ -53,7 +53,7 @@ Foris.WS["netmetr"] = function(msg) {
 $(document).ready(function() {
   $("#redownload-trigger").click(function(e) {
     e.preventDefault();
-    $.get('{{ url("config_ajax", page_name="netmetr_plugin") }}', {action: "redownload"})
+    $.get('{{ url("config_ajax", page_name="netmetr") }}', {action: "redownload"})
       .done(function(response) {
         Foris.watched_process = response["async_id"];
         $("#start-trigger").hide()
@@ -63,7 +63,7 @@ $(document).ready(function() {
   });
   $("#start-trigger").click(function(e) {
     e.preventDefault();
-    $.get('{{ url("config_ajax", page_name="netmetr_plugin") }}', {action: "start"})
+    $.get('{{ url("config_ajax", page_name="netmetr") }}', {action: "start"})
       .done(function(response) {
         Foris.watched_process = response["async_id"];
         $("#start-trigger").hide()
