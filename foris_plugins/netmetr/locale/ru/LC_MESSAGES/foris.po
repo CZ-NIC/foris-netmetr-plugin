@@ -1,24 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Foris Netmetr plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Foris Netmetr
+# plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-21 10:07+0100\n"
+"POT-Creation-Date: 2018-09-25 16:40+0200\n"
 "PO-Revision-Date: 2018-02-05 11:39+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language: ru\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris/foris-"
 "netmetr-plugin/ru/>\n"
-"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"Generated-By: Babel 2.6.0\n"
 
 msgid "netmetr"
 msgstr "netmetr"
@@ -45,6 +46,27 @@ msgstr "Настройки Netmeter были обновлены."
 msgid "Netmetr"
 msgstr "Netmetr"
 
+msgid "Downloading... OK"
+msgstr "Приём... Ок"
+
+msgid "Downloading... FAILED"
+msgstr "Приём... ОШИБКА"
+
+msgid "Testing... FINISHED"
+msgstr "Тестирование... ЗАВЕРШЕНО"
+
+msgid "Testing... FAILED"
+msgstr "Тестирование... ОШИБКА"
+
+msgid "Testing... "
+msgstr "Тестирование... "
+
+msgid "Downloading..."
+msgstr "Загрузка..."
+
+msgid "Testing..."
+msgstr "Тестирование..."
+
 msgid "Date and Time"
 msgstr "Дата и время"
 
@@ -68,8 +90,8 @@ msgstr "Подробности в новом окне"
 
 #, python-format
 msgid ""
-"For more information you need to enter your syncode <strong>%(sync_code)s</"
-"strong> <a href='%(url)s'>here</a>."
+"For more information you need to enter your syncode "
+"<strong>%(sync_code)s</strong> <a href='%(url)s'>here</a>."
 msgstr ""
 "Для получения дополнительной информации введите свой идентификатор "
 "<strong>%(sync_code)s</strong> <a href='%(url)s'>здесь</a>."
@@ -99,23 +121,3 @@ msgstr "Начать тест"
 msgid "Results"
 msgstr "Результаты"
 
-msgid "Downloading... OK"
-msgstr "Приём... Ок"
-
-msgid "Downloading... FAILED"
-msgstr "Приём... ОШИБКА"
-
-msgid "Testing... FINISHED"
-msgstr "Тестирование... ЗАВЕРШЕНО"
-
-msgid "Testing... FAILED"
-msgstr "Тестирование... ОШИБКА"
-
-msgid "Testing... "
-msgstr "Тестирование... "
-
-msgid "Downloading..."
-msgstr "Загрузка..."
-
-msgid "Testing..."
-msgstr "Тестирование..."

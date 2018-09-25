@@ -1,23 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Foris Netmetr plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Foris Netmetr
+# plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-21 10:07+0100\n"
+"POT-Creation-Date: 2018-09-25 16:40+0200\n"
 "PO-Revision-Date: 2018-05-24 10:59+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"foris-netmetr-plugin/nb/>\n"
 "Language: nb\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/foris-netmetr-plugin/nb/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"Generated-By: Babel 2.6.0\n"
 
 #, fuzzy
 msgid "netmetr"
@@ -34,8 +35,8 @@ msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
-"Måling vil starte omentrent ved valgt time (tid er ikke et nøyaktig mål på "
-"lastutgjevning)"
+"Måling vil starte omentrent ved valgt time (tid er ikke et nøyaktig mål "
+"på lastutgjevning)"
 
 msgid "Autostart times"
 msgstr "Autostart-tider"
@@ -46,65 +47,6 @@ msgstr "Netmetr-innstillinger ble oppdatert."
 
 msgid "Netmetr"
 msgstr "Netmetr"
-
-msgid "Date and Time"
-msgstr "Dato og tid"
-
-#, fuzzy
-msgid "Download [Mb/s]"
-msgstr "Nedlasting [MB/s]"
-
-#, fuzzy
-msgid "Upload [Mb/s]"
-msgstr "Opplasting [MB/s]"
-
-#, fuzzy
-msgid "Ping [ms]"
-msgstr "Svartidsforespørsel [ms]"
-
-#, fuzzy
-msgid "Link"
-msgstr "Lenke"
-
-msgid "Details"
-msgstr "Detaljer"
-
-msgid "Details in new window"
-msgstr "Detaljer i nytt vindu"
-
-#, python-format
-msgid ""
-"For more information you need to enter your syncode <strong>%(sync_code)s</"
-"strong> <a href='%(url)s'>here</a>."
-msgstr ""
-"For mer info, må du skrive inn din syncode <strong>%(sync_code)s</strong> <a "
-"href='%(url)s'>her</a>."
-
-msgid "No results found."
-msgstr "Resultatløst søk."
-
-#, fuzzy
-msgid ""
-"Netmeter measures your internet parameters like upload, download and "
-"response time."
-msgstr ""
-"Netmetr måler dine internettparameter, som opplasting, nedlasting og "
-"responstid."
-
-msgid "Save"
-msgstr "Lagre"
-
-msgid "Controls"
-msgstr "Innstillinger"
-
-msgid "Redownload data"
-msgstr "Last ned data på nytt"
-
-msgid "Start test"
-msgstr "Start test"
-
-msgid "Results"
-msgstr "Resultater"
 
 #, fuzzy
 msgid "Downloading... OK"
@@ -133,3 +75,63 @@ msgstr "Laster ned…"
 #, fuzzy
 msgid "Testing..."
 msgstr "Tester…"
+
+msgid "Date and Time"
+msgstr "Dato og tid"
+
+#, fuzzy
+msgid "Download [Mb/s]"
+msgstr "Nedlasting [MB/s]"
+
+#, fuzzy
+msgid "Upload [Mb/s]"
+msgstr "Opplasting [MB/s]"
+
+#, fuzzy
+msgid "Ping [ms]"
+msgstr "Svartidsforespørsel [ms]"
+
+#, fuzzy
+msgid "Link"
+msgstr "Lenke"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Details in new window"
+msgstr "Detaljer i nytt vindu"
+
+#, python-format
+msgid ""
+"For more information you need to enter your syncode "
+"<strong>%(sync_code)s</strong> <a href='%(url)s'>here</a>."
+msgstr ""
+"For mer info, må du skrive inn din syncode <strong>%(sync_code)s</strong>"
+" <a href='%(url)s'>her</a>."
+
+msgid "No results found."
+msgstr "Resultatløst søk."
+
+#, fuzzy
+msgid ""
+"Netmeter measures your internet parameters like upload, download and "
+"response time."
+msgstr ""
+"Netmetr måler dine internettparameter, som opplasting, nedlasting og "
+"responstid."
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "Controls"
+msgstr "Innstillinger"
+
+msgid "Redownload data"
+msgstr "Last ned data på nytt"
+
+msgid "Start test"
+msgstr "Start test"
+
+msgid "Results"
+msgstr "Resultater"
+
