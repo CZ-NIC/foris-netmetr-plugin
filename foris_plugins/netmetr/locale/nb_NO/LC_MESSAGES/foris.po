@@ -1,19 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# Translations template for Foris Netmetr Plugin.
+# Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the Foris Netmetr
-# plugin package.
+# Plugin project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foris Netmetr plugin\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Foris Netmetr Plugin 4.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-09-25 16:40+0200\n"
 "PO-Revision-Date: 2018-10-16 03:34+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"foris-netmetr-plugin/nb/>\n"
-"Language: nb\n"
+"foris-netmetr-plugin/nb_NO/>\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #, fuzzy
 msgid "netmetr"
-msgstr "netmetr"
+msgstr "Netmetr"
 
 msgid "Autostart"
 msgstr "Autostart"
@@ -31,20 +31,19 @@ msgstr "Autostart"
 msgid "Autostart enabled"
 msgstr "Autostart påslått"
 
-#, fuzzy
 msgid ""
 "Measuring will start about selected hour (time is no exact for load "
 "distribution)"
 msgstr ""
-"Måling vil starte omentrent ved valgt time (tid er ikke et nøyaktig mål "
-"på lastutgjevning)"
+"Måling vil starte omentrent ved valgt time (tid er ikke et nøyaktig mål på "
+"lastutgjevning)."
 
 msgid "Autostart times"
 msgstr "Autostart-tider"
 
 #, fuzzy
 msgid "Netmeter settings were updated."
-msgstr "Netmetr-innstillinger ble oppdatert."
+msgstr "Netmeterinnstillinger oppdatert."
 
 msgid "Netmetr"
 msgstr "Netmetr"
@@ -55,13 +54,12 @@ msgstr "Laster ned… OK"
 
 #, fuzzy
 msgid "Downloading... FAILED"
-msgstr "Nedlasting… MISLYKTES"
+msgstr "Laster ned… MISLYKTES"
 
 #, fuzzy
 msgid "Testing... FINISHED"
-msgstr "TESTER… FULLFØRT"
+msgstr "Testing… FULLFØRT"
 
-#, fuzzy
 msgid "Testing... FAILED"
 msgstr "TESTER… MISLYKTES"
 
@@ -69,30 +67,24 @@ msgstr "TESTER… MISLYKTES"
 msgid "Testing... "
 msgstr "TESTER… "
 
-#, fuzzy
 msgid "Downloading..."
 msgstr "Laster ned…"
 
-#, fuzzy
 msgid "Testing..."
 msgstr "Tester…"
 
 msgid "Date and Time"
 msgstr "Dato og tid"
 
-#, fuzzy
 msgid "Download [Mb/s]"
-msgstr "Nedlasting [MB/s]"
+msgstr "Nedlasting [Mb/s]"
 
-#, fuzzy
 msgid "Upload [Mb/s]"
-msgstr "Opplasting [MB/s]"
+msgstr "Opplasting [Mb/s]"
 
-#, fuzzy
 msgid "Ping [ms]"
-msgstr "Svartidsforespørsel [ms]"
+msgstr "Svartid [ms]"
 
-#, fuzzy
 msgid "Link"
 msgstr "Lenke"
 
@@ -102,36 +94,34 @@ msgstr "Detaljer"
 msgid "Details in new window"
 msgstr "Detaljer i nytt vindu"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "For more information you need to enter your syncode "
 "<strong>%(sync_code)s</strong> <a href='%(url)s'>here</a>."
 msgstr ""
-"For mer info, må du skrive inn din syncode <strong>%(sync_code)s</strong>"
-" <a href='%(url)s'>her</a>."
+"For mer info, må du skrive inn din syncode <strong>%(sync_code)s</strong> <a "
+"href='%(url)s'>her</a>."
 
 msgid "No results found."
-msgstr "Resultatløst søk."
+msgstr "Resultatløst."
 
-#, fuzzy
 msgid ""
 "Netmeter measures your internet parameters like upload, download and "
 "response time."
 msgstr ""
-"Netmetr måler dine internettparameter, som opplasting, nedlasting og "
-"responstid."
+"Netmeter måler dine internettparameter som opplasting, nedlasting og svartid."
 
 msgid "Save"
 msgstr "Lagre"
 
 msgid "Controls"
-msgstr "Innstillinger"
+msgstr "Kontroller"
 
 msgid "Redownload data"
-msgstr "Last ned data på nytt"
+msgstr "Last ned data igjen"
 
 msgid "Start test"
-msgstr "Start test"
+msgstr "Star test"
 
 msgid "Results"
-msgstr "Resultater"
+msgstr "Resultat"
