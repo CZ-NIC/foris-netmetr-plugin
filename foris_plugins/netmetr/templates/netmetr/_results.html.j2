@@ -23,9 +23,9 @@
     {% for record in results %}
             <tr>
                 <td>{{ record["time"] }}</td>
-                <td>{{ record["speed_download"] }}</td>
-                <td>{{ record["speed_upload"] }}</td>
-                <td>{{ record["ping"] }}</td>
+                <td>{{ "%0.2f" | format(record["speed_download"]) }}</td>
+                <td>{{ "%0.2f" | format(record["speed_upload"]) }}</td>
+                <td>{{ "%0.2f" | format(record["ping"]) }}</td>
                 <td>
                     <a href="{{ "%s?%s" % (ns.detail_url, record["test_uuid"]) }}">{% trans %}Details{% endtrans %}</a>
                     &nbsp;
