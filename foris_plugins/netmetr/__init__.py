@@ -59,7 +59,7 @@ class NetmetrPluginConfigHandler(BaseConfigHandler):
                     if name in data and data[name]:
                         msg["hours_to_run"].append(i)
             current_state.backend.perform("netmetr", "update_settings", msg)
-            messages.success(_("Netmeter settings were updated."))
+            messages.success(_("Netmetr settings were updated."))
             return "none", None
 
         form.add_callback(form_cb)

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Foris Netmetr plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-25 16:40+0200\n"
+"POT-Creation-Date: 2018-10-30 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language: el\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Autostart times"
 msgstr ""
 
-msgid "Netmeter settings were updated."
+msgid "Netmetr settings were updated."
 msgstr ""
 
 msgid "Netmetr"
@@ -112,4 +112,7 @@ msgstr ""
 
 msgid "Results"
 msgstr ""
+
+#~ msgid "Netmeter settings were updated."
+#~ msgstr ""
 
