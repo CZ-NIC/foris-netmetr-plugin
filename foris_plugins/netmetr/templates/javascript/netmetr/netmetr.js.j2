@@ -20,7 +20,9 @@ Foris.update_data = function(newItem) {
       }
     });
 };
-Foris.WS["netmetr"] = function(msg) {
+
+
+Foris.addWsHanlder("netmetr", (msg) => {
     if (msg.data.async_id != Foris.watched_process) {
         return;
     }
@@ -48,7 +50,7 @@ Foris.WS["netmetr"] = function(msg) {
         document.getElementById('netmetr-control-status').firstChild.data = '{% trans %}Testing... {% endtrans %}' + msg.data.msg;
         break;
     }
-};
+});
 
 $(document).ready(function() {
   $("#redownload-trigger").click(function(e) {
