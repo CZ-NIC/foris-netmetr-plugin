@@ -10,6 +10,7 @@ class BuildCmd(build_py):
     def run(self):
         # build foris plugin files
         from foris_plugins_distutils import build
+
         cmd = build(copy.copy(self.distribution))
         cmd.ensure_finalized()
         cmd.run()
@@ -20,29 +21,18 @@ class BuildCmd(build_py):
 
 setup(
     name="Foris Netmetr Plugin",
-    version="4.5",
+    version="4.6",
     description="Netmetr plugin for foris web interfce",
     author="CZ.NIC, z. s. p. o.",
     author_email="stepan.henek@nic.cz",
     url="https://gitlab.labs.nic.cz/turris/foris-netmetr-plugin/",
     license="GPL-3.0",
-    install_requires=[
-        "foris @ git+https://gitlab.labs.nic.cz/turris/foris.git#egg=foris",
-    ],
-    setup_requires=[
-        'babel',
-        'jinja2',
-        'libsass',
-        'foris-plugins-distutils',
-    ],
-    provides=[
-        "foris_plugins.netmetr",
-    ],
-    packages=[
-        "foris_plugins.netmetr",
-    ],
+    install_requires=["foris @ git+https://gitlab.labs.nic.cz/turris/foris.git#egg=foris"],
+    setup_requires=["babel", "jinja2", "libsass", "foris-plugins-distutils"],
+    provides=["foris_plugins.netmetr"],
+    packages=["foris_plugins.netmetr"],
     package_data={
-        '': [
+        "": [
             "templates/**",
             "templates/**/*",
             "templates/javascript/**",
@@ -53,15 +43,11 @@ setup(
             "static/img/*",
             "static/js/*.js",
             "static/js/contrib/*",
-        ],
+        ]
     },
-    namespace_packages=[
-        'foris_plugins',
-    ],
+    namespace_packages=["foris_plugins"],
     dependency_links=[
-        "git+https://gitlab.labs.nic.cz/turris/foris-plugins-distutils.git#egg=foris-plugins-distutils",
+        "git+https://gitlab.labs.nic.cz/turris/foris-plugins-distutils.git#egg=foris-plugins-distutils"
     ],
-    cmdclass={
-        "build_py": BuildCmd,  # modify build_py to build the foris files as well
-    }
+    cmdclass={"build_py": BuildCmd},  # modify build_py to build the foris files as well
 )
