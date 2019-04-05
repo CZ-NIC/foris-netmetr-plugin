@@ -25,7 +25,7 @@
                 <td>{{ record["time"] }}</td>
                 <td>{{ "%0.2f" | format(record["speed_download"]) }}</td>
                 <td>{{ "%0.2f" | format(record["speed_upload"]) }}</td>
-                <td>{{ "%0.2f" | format(record["ping"]) }}</td>
+                <td>{% if record["ping"] >= 0 %}{{ "%0.2f" | format(record["ping"]) }}{% else %}N/A{% endif %}</td>
                 <td>
                     <a href="{{ "%s?%s" % (ns.detail_url, record["test_uuid"]) }}">{% trans %}Details{% endtrans %}</a>
                     &nbsp;
