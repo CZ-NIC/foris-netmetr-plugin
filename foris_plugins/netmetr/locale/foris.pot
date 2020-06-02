@@ -85,7 +85,7 @@ msgstr ""
 
 #, python-format
 msgid ""
-"For more information you need to enter your syncode "
+"For more information, you need to enter your sync code "
 "<strong>%(sync_code)s</strong> <a href='%(url)s'>here</a>."
 msgstr ""
 
