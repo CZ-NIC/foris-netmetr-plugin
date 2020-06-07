@@ -21,7 +21,7 @@ class BuildCmd(build_py):
 
 setup(
     name="Foris Netmetr Plugin",
-    version="4.6",
+    version="4.6.1",
     description="Netmetr plugin for foris web interfce",
     author="CZ.NIC, z. s. p. o.",
     author_email="stepan.henek@nic.cz",
