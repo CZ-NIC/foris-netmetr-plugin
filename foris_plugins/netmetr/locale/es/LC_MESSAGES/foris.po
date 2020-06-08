@@ -1,31 +1,31 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# Translations template for Foris Netmetr Plugin.
+# Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the Foris Netmetr
-# plugin package.
+# Plugin project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foris Netmetr plugin\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Foris Netmetr Plugin 4.4\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-10-30 14:38+0100\n"
-"PO-Revision-Date: 2019-10-15 14:54+0000\n"
-"Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/turris/"
-"foris-netmetr-plugin/nl/>\n"
-"Language: nl\n"
+"PO-Revision-Date: 2020-05-30 12:41+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
+"foris-netmetr-plugin/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9\n"
+"X-Generator: Weblate 4.1-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "netmetr"
 msgstr ""
 
 msgid "Autostart"
-msgstr ""
+msgstr "Inicio automàtico"
 
 msgid "Autostart enabled"
 msgstr ""
@@ -42,7 +42,7 @@ msgid "Netmetr settings were updated."
 msgstr ""
 
 msgid "Netmetr"
-msgstr ""
+msgstr "Netmetr"
 
 msgid "Downloading... OK"
 msgstr ""
@@ -66,22 +66,23 @@ msgid "Testing..."
 msgstr ""
 
 msgid "Date and Time"
-msgstr ""
+msgstr "Fecha y hora"
 
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Descarga [Mb/s]"
 
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Subida [Mb/s]"
 
+#, fuzzy
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Ping [ms]"
 
 msgid "Link"
-msgstr ""
+msgstr "Enlace"
 
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 msgid "Details in new window"
 msgstr ""
@@ -101,19 +102,16 @@ msgid ""
 msgstr ""
 
 msgid "Save"
-msgstr "Opslaan"
+msgstr "Guardar"
 
 msgid "Controls"
 msgstr ""
 
 msgid "Redownload data"
-msgstr ""
+msgstr "Volver a descargar datos"
 
 msgid "Start test"
-msgstr ""
+msgstr "Comenzar el test"
 
 msgid "Results"
-msgstr ""
-
-#~ msgid "Netmeter settings were updated."
-#~ msgstr ""
+msgstr "Resultados"
